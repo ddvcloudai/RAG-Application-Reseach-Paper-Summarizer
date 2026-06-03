@@ -7,7 +7,7 @@ To summarize how RAG works from development and architecture standpoint.
 ## Workflow Process: 
 The user uploads the research document -> backend augments the text using embeddings -> The vectors are scored -> Sementic search happens utilizing LLM -> Result is sent back. 
 
-## Agmentation:
+## Augmentation:
 Guardrails: added as an essential security measure for prompt and retreival perspective.
 Governance: every ingenstion, query, rejections and token usage taken into account in log file.
 Any other augmentation can be added accordingly.
