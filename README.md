@@ -31,15 +31,13 @@ pip install -r requirements.txt
 OPENAI_API_KEY=sk-...
 ```
 
-### 3. Start the backend (Terminal 1)
+### 3. Start the backend 
 ```bash
-cd backend
 uvicorn main:app --reload --port 8000
 ```
 
-### 4. Start the frontend (Terminal 2)
+### 4. Start the frontend 
 ```bash
-cd frontend
 streamlit run app.py
 ```
 
