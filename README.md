@@ -1,4 +1,4 @@
-# RAG-Application: Reseach-Paper-Summarizer
+# RAG-Application: Reseach Paper Summarizer
 This is RAG based application to summarize research paper using Langchain framework. Presenting a secured and well governed prototype application for demo purpose suggesting how RAG framework handles the vectors and embeddings in dev environment leveraging OpenAI LLM capabilities through summary response.
 
 ## Objective:
@@ -12,5 +12,6 @@ Guardrails: added as an essential security measure for prompt and retreival pers
 Governance: every ingenstion, query, rejections and token usage taken into account in log file.
 Any other augmentation can be added accordingly.
 
-
+##Assistance:
+Some inputs from large language model (claude sonnet usage stood helpful in giving it production grade developer centric approach
 
