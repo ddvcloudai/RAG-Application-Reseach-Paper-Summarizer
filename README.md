@@ -12,6 +12,10 @@ Guardrails: added as an essential security measure for prompt and retreival pers
 Governance: every ingenstion, query, rejections and token usage taken into account in log file.
 Any other augmentation can be added accordingly.
 
+## Note:
+Not considering environment variable as it geneally contain the keys, so avoiding this channel. If you want, feel free to add env file under the project structure so that you can call your LLM like OpenAI. 
+This is a simple prototype, so you can customize it according to your requiremnts.
+
 ## Assistance:
 Some inputs from large language model (claude sonnet usage stood helpful in giving it production grade developer centric approach.
 
