@@ -19,3 +19,29 @@ This is a simple prototype, so you can customize it according to your requiremnt
 ## Assistance:
 Some inputs from large language model (claude sonnet usage stood helpful in giving it production grade developer centric approach.
 
+## Setup & Run
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Set your OpenAI key in .env
+```
+OPENAI_API_KEY=sk-...
+```
+
+### 3. Start the backend (Terminal 1)
+```bash
+cd backend
+uvicorn main:app --reload --port 8000
+```
+
+### 4. Start the frontend (Terminal 2)
+```bash
+cd frontend
+streamlit run app.py
+```
+
+App runs at: http://localhost:8501
+API docs at: http://localhost:8000/docs
