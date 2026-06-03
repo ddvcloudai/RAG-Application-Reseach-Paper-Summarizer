@@ -16,8 +16,6 @@ Any other augmentation can be added accordingly.
 Not considering environment variable as it geneally contain the keys, so avoiding this channel. If you want, feel free to add env file under the project structure so that you can call your LLM like OpenAI. 
 This is a simple prototype, so you can customize it according to your requiremnts.
 
-## Assistance:
-Some inputs from large language model (claude sonnet usage stood helpful in giving it production grade developer centric approach.
 
 ## Setup & Run
 
@@ -43,3 +41,6 @@ streamlit run app.py
 
 App runs at: http://localhost:8501
 API docs at: http://localhost:8000/docs
+
+## Reference:
+Some inputs leveraged from large language claude sonnet-4.6 model that stood helpful in giving it production grade developer centric approach. 
