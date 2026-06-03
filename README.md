@@ -13,9 +13,9 @@ The user uploads the research document -> backend augments the text using embedd
 - Any other augmentation can be added accordingly.
 
 ## Note:
--- Not considering environment variable as it geneally contain the keys, so avoiding this channel. If you want, feel free to add env file under the project structure so that you can call your LLM like OpenAI. 
--- This is a simple prototype, so you can customize it according to your requiremnts.
--- Some inputs leveraged utilizing LLM - claude sonnet-4.6 that stood helpful in giving it developer centric approach for clean understanding around how RAG architecture works.
+- Not considering environment variable as it geneally contain the keys, so avoiding this channel. If you want, feel free to add env file under the project structure so that you can call your LLM like OpenAI. 
+- This is a simple prototype, so you can customize it according to your requiremnts.
+- Some inputs leveraged utilizing LLM - claude sonnet-4.6 that stood helpful in giving it developer centric approach for clean understanding around how RAG architecture works.
 
 
 ## Setup & Run
