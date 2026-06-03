@@ -8,9 +8,9 @@ To summarize how RAG works from development and architecture standpoint.
 The user uploads the research document -> backend augments the text using embeddings -> The vectors are scored -> Sementic search happens utilizing LLM -> Result is sent back. 
 
 ## Augmentation:
--- Guardrails: added as an essential security measure for prompt and retreival perspective.
--- Governance: every ingenstion, query, rejections and token usage taken into account in log file.
--- Any other augmentation can be added accordingly.
+- Guardrails: added as an essential security measure for prompt and retreival perspective.
+- Governance: every ingenstion, query, rejections and token usage taken into account in log file.
+- Any other augmentation can be added accordingly.
 
 ## Note:
 -- Not considering environment variable as it geneally contain the keys, so avoiding this channel. If you want, feel free to add env file under the project structure so that you can call your LLM like OpenAI. 
